@@ -1,0 +1,38 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .calculator {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 300px;
+  }
+
+  input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 100px;
+  }
+
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
